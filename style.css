@@ -20,21 +20,20 @@ body{
     border-radius:100%;
     border: solid 5px green;
     float: right;
+    margin-right: 10%;
 }
 
-.lado-direito{
+.lado-direito, .lado-esquerdo{
     padding: 10px;
     display: inline-block;
-    
-}
-
-.lado-esquerdo {
-    padding: 10px;
-    display: inline-block;
+    width: 40%;
+    margin: auto;
+ 
 }
 
 table{
     text-align: center;
+    margin: auto;
 }
 caption{
     font-size: 1.2em;
