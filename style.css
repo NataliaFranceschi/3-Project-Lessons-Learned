@@ -1,0 +1,26 @@
+body{
+    background-color:rgb(253, 251, 251);
+    margin: 0;
+}
+
+#cabecalho{
+    position: fixed;
+    top: 0;
+    background-color: green;
+    width: 100%;
+    text-align: center;
+}
+
+#minha_foto{
+    border-radius:100%;
+    border: solid 5px green;
+}
+
+aside{
+    float: right;
+    max-width: 30%;
+}
+
+section, article{
+    max-width: 60%;
+}
